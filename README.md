@@ -42,24 +42,30 @@ Before you begin, ensure you have met the following requirements:
 
    ```bash
    git clone https://github.com/trackstarr/Employee-Tracker.git)https://github.com/trackstarr/Employee-Tracker.git
-
+   ```
+   
    Change to the project directory:
-
+   
   ```bash
 2. cd employee-database-cli
-Install dependencies:
    ```
+
+Install dependencies:
+
   ```bash
 2.npm install
    ```
-Set up your MySQL database:
+
+3. Set up your MySQL database:
 
 Create a MySQL database and schema for your project.
 Import the provided SQL schema into your database using a tool like MySQL Workbench or by running the SQL script provided in the db/schema.sql file.
 Configure the application:
 
 Open the app.js file and modify the MySQL connection settings (host, user, password, and database) to match your MySQL server configuration.
-Start the application:
+
+
+4. Start the application:
 
   ```bash
 node app.js
