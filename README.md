@@ -45,12 +45,13 @@ Before you begin, ensure you have met the following requirements:
 
    Change to the project directory:
 
-  ``bash
-1. cd employee-database-cli
+  ```bash
+2. cd employee-database-cli
 Install dependencies:
 
-  ``bash
+  ```bash
 2.npm install
+   ```
 Set up your MySQL database:
 
 Create a MySQL database and schema for your project.
@@ -60,9 +61,9 @@ Configure the application:
 Open the app.js file and modify the MySQL connection settings (host, user, password, and database) to match your MySQL server configuration.
 Start the application:
 
-  ``bash
-Copy code
+  ```bash
 node app.js
+   ```
 Usage
 Run the application using node app.js in your terminal.
 Use the arrow keys to navigate through the menu and select the action you want to perform.
