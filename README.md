@@ -48,7 +48,7 @@ Before you begin, ensure you have met the following requirements:
   ```bash
 2. cd employee-database-cli
 Install dependencies:
-
+   ```
   ```bash
 2.npm install
    ```
